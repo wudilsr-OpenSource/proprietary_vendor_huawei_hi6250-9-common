@@ -232,7 +232,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-9-common/proprietary/vendor/firmware/hifi_6402_tas2smartpa.img:$(TARGET_COPY_OUT_VENDOR)/firmware/hifi_6402_tas2smartpa.img \
     vendor/huawei/hi6250-9-common/proprietary/vendor/firmware/hifi_6402_tas4smartpa.img:$(TARGET_COPY_OUT_VENDOR)/firmware/hifi_6402_tas4smartpa.img \
     vendor/huawei/hi6250-9-common/proprietary/vendor/firmware/isp_bw.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/isp_bw.elf \
-    vendor/huawei/hi6250-9-common/proprietary/vendor/firmware/isp_dts.img:$(TARGET_COPY_OUT_VENDOR)/firmware/isp_dts.img \
     vendor/huawei/hi6250-9-common/proprietary/vendor/firmware/isp_fw.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/isp_fw.elf \
     vendor/huawei/hi6250-9-common/proprietary/vendor/firmware/libpn548ad_fw.so:$(TARGET_COPY_OUT_VENDOR)/firmware/libpn548ad_fw.so \
     vendor/huawei/hi6250-9-common/proprietary/vendor/firmware/libpn548ad_fw_10.01.1C_64bits.so:$(TARGET_COPY_OUT_VENDOR)/firmware/libpn548ad_fw_10.01.1C_64bits.so \
@@ -295,6 +294,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-9-common/proprietary/vendor/lib/lib_factory_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_factory_interface.so \
     vendor/huawei/hi6250-9-common/proprietary/vendor/lib/lib_fpc_tac_shared.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_fpc_tac_shared.so \
     vendor/huawei/hi6250-9-common/proprietary/vendor/lib/lib_mmi_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_mmi_interface.so \
+    vendor/huawei/hi6250-9-common/proprietary/vendor/lib/lib_softap_hw.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_softap_hw.so \
     vendor/huawei/hi6250-9-common/proprietary/vendor/lib/lib_wifi_sar.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_wifi_sar.so \
     vendor/huawei/hi6250-9-common/proprietary/vendor/lib/libbalong-ril-1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbalong-ril-1.so \
     vendor/huawei/hi6250-9-common/proprietary/vendor/lib/libbalong-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbalong-ril.so \
@@ -346,6 +346,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-9-common/proprietary/vendor/lib/libteec_eid.so:$(TARGET_COPY_OUT_VENDOR)/lib/libteec_eid.so \
     vendor/huawei/hi6250-9-common/proprietary/vendor/lib/libteec_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libteec_vendor.so \
     vendor/huawei/hi6250-9-common/proprietary/vendor/lib/libtrack.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtrack.so \
+    vendor/huawei/hi6250-9-common/proprietary/vendor/lib/libwifi_bcm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwifi_bcm.so \
     vendor/huawei/hi6250-9-common/proprietary/vendor/lib/soundfx/libhuaweiprocessing.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libhuaweiprocessing.so \
     vendor/huawei/hi6250-9-common/proprietary/vendor/lib/soundfx/liboffloadvisualizer.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/liboffloadvisualizer.so \
     vendor/huawei/hi6250-9-common/proprietary/vendor/lib/vendor.huawei.hardware.ai@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.huawei.hardware.ai@1.0.so \
@@ -427,6 +428,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-9-common/proprietary/vendor/lib64/lib_factory_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_factory_interface.so \
     vendor/huawei/hi6250-9-common/proprietary/vendor/lib64/lib_fpc_tac_shared.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_fpc_tac_shared.so \
     vendor/huawei/hi6250-9-common/proprietary/vendor/lib64/lib_mmi_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_mmi_interface.so \
+    vendor/huawei/hi6250-9-common/proprietary/vendor/lib64/lib_softap_hw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_softap_hw.so \
     vendor/huawei/hi6250-9-common/proprietary/vendor/lib64/lib_wifi_sar.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_wifi_sar.so \
     vendor/huawei/hi6250-9-common/proprietary/vendor/lib64/libasd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libasd.so \
     vendor/huawei/hi6250-9-common/proprietary/vendor/lib64/libaudio_custom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudio_custom.so \
@@ -498,6 +500,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-9-common/proprietary/vendor/lib64/libteec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libteec.so \
     vendor/huawei/hi6250-9-common/proprietary/vendor/lib64/libteec_eid.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libteec_eid.so \
     vendor/huawei/hi6250-9-common/proprietary/vendor/lib64/libteec_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libteec_vendor.so \
+    vendor/huawei/hi6250-9-common/proprietary/vendor/lib64/libwifi-hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifi-hal.so \
+    vendor/huawei/hi6250-9-common/proprietary/vendor/lib64/libwifi_bcm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifi_bcm.so \
     vendor/huawei/hi6250-9-common/proprietary/vendor/lib64/libwifi_ext.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifi_ext.default.so \
     vendor/huawei/hi6250-9-common/proprietary/vendor/lib64/libwifi_wapi_hisi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifi_wapi_hisi.so \
     vendor/huawei/hi6250-9-common/proprietary/vendor/lib64/soundfx/libhuaweiprocessing.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libhuaweiprocessing.so \
