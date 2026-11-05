@@ -202,14 +202,22 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-9-common/proprietary/vendor/etc/init/vendor.huawei.hardware.perfgenius@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.huawei.hardware.perfgenius@2.0-service.rc \
     vendor/huawei/hi6250-9-common/proprietary/vendor/etc/init/vendor.huawei.hardware.sensors@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.huawei.hardware.sensors@1.0-service.rc \
     vendor/huawei/hi6250-9-common/proprietary/vendor/etc/init/vendor.huawei.hardware.wifi@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.huawei.hardware.wifi@1.1-service.rc \
+    vendor/huawei/hi6250-9-common/proprietary/vendor/etc/modemConfig/VIA/basic_name:$(TARGET_COPY_OUT_VENDOR)/etc/modemConfig/VIA/basic_name \
+    vendor/huawei/hi6250-9-common/proprietary/vendor/etc/modemConfig/VIA/viacbp82d_FieldTest.bcfg:$(TARGET_COPY_OUT_VENDOR)/etc/modemConfig/VIA/viacbp82d_FieldTest.bcfg \
+    vendor/huawei/hi6250-9-common/proprietary/vendor/etc/modemConfig/balong/basic_name:$(TARGET_COPY_OUT_VENDOR)/etc/modemConfig/balong/basic_name \
+    vendor/huawei/hi6250-9-common/proprietary/vendor/etc/modemConfig/viacbp82d_log.bcfg:$(TARGET_COPY_OUT_VENDOR)/etc/modemConfig/viacbp82d_log.bcfg \
+    vendor/huawei/hi6250-9-common/proprietary/vendor/etc/modemConfig/viacbp82d_shutdown_log.bcfg:$(TARGET_COPY_OUT_VENDOR)/etc/modemConfig/viacbp82d_shutdown_log.bcfg \
     vendor/huawei/hi6250-9-common/proprietary/vendor/etc/native_packages.bin:$(TARGET_COPY_OUT_VENDOR)/etc/native_packages.bin \
     vendor/huawei/hi6250-9-common/proprietary/vendor/etc/perfgenius_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perfgenius_config.xml \
     vendor/huawei/hi6250-9-common/proprietary/vendor/etc/perfgenius_event_policy.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perfgenius_event_policy.xml \
     vendor/huawei/hi6250-9-common/proprietary/vendor/etc/perfgenius_scenario_policy.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perfgenius_scenario_policy.xml \
     vendor/huawei/hi6250-9-common/proprietary/vendor/firmware/BCM4345C0_003.001.025.0033.0000_Generic.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/BCM4345C0_003.001.025.0033.0000_Generic.hcd \
+    vendor/huawei/hi6250-9-common/proprietary/vendor/firmware/cr4_regmem.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cr4_regmem.bin \
+    vendor/huawei/hi6250-9-common/proprietary/vendor/firmware/cr4_regmem_u1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cr4_regmem_u1.bin \
     vendor/huawei/hi6250-9-common/proprietary/vendor/firmware/fw_bcm43455_apsta_hw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/fw_bcm43455_apsta_hw.bin \
     vendor/huawei/hi6250-9-common/proprietary/vendor/firmware/fw_bcm43455_hw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/fw_bcm43455_hw.bin \
     vendor/huawei/hi6250-9-common/proprietary/vendor/firmware/fw_bcm43455_test_hw_apsta.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/fw_bcm43455_test_hw_apsta.bin \
+    vendor/huawei/hi6250-9-common/proprietary/vendor/firmware/isp_bw.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/isp_bw.elf \
     vendor/huawei/hi6250-9-common/proprietary/vendor/firmware/libpn548ad_fw.so:$(TARGET_COPY_OUT_VENDOR)/firmware/libpn548ad_fw.so \
     vendor/huawei/hi6250-9-common/proprietary/vendor/firmware/libpn548ad_fw_10.01.1C_64bits.so:$(TARGET_COPY_OUT_VENDOR)/firmware/libpn548ad_fw_10.01.1C_64bits.so \
     vendor/huawei/hi6250-9-common/proprietary/vendor/firmware/libpn548ad_fw_10_01_1A_prod_slalm_64bits.so:$(TARGET_COPY_OUT_VENDOR)/firmware/libpn548ad_fw_10_01_1A_prod_slalm_64bits.so \
