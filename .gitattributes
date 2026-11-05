@@ -1,2 +1,12 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# These blobs hold data in the carriage returns, and git only inspects the first
+# 8000 bytes when guessing, so it treats them as text and strips every CR: the
+# Wi-Fi NVRAM calibration under firmware/ and the modem .bcfg log configs.
+**/firmware/** binary
+*.bcfg binary
+*.bin binary
+*.img binary
+*.elf binary
+*.so binary
