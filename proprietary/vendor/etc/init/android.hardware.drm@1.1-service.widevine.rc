@@ -9,7 +9,7 @@ service vendor.move_data_sh /system/bin/move_widevine_data.sh
     disabled
     oneshot
 
-service vendor.drm-widevine-hal-1-1 /vendor/preavs/bin/hw/android.hardware.drm@1.1-service.widevine
+service vendor.drm-widevine-hal-1-1 /vendor/bin/hw/android.hardware.drm@1.1-service.widevine
     interface android.hardware.drm@1.1::ICryptoFactory widevine
     interface android.hardware.drm@1.1::IDrmFactory widevine
     class hal
@@ -17,7 +17,6 @@ service vendor.drm-widevine-hal-1-1 /vendor/preavs/bin/hw/android.hardware.drm@1
     group media mediadrm drmrpc
     ioprio rt 4
     writepid /dev/cpuset/foreground/tasks /dev/stune/foreground/tasks
-    setenv LD_LIBRARY_PATH /vendor/preavs/lib:/vendor/wv_lib
 
 on property:persist.odm.restart.mediadrm=true
     restart vendor.drm-widevine-hal-1-1
