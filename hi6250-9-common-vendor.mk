@@ -254,7 +254,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-9-common/proprietary/vendor/lib/hw/gralloc.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.hi6250.so \
     vendor/huawei/hi6250-9-common/proprietary/vendor/lib/hw/hicam.hal.service.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/hicam.hal.service.so \
     vendor/huawei/hi6250-9-common/proprietary/vendor/lib/hw/hwcomposer.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/hwcomposer.hi6250.so \
-    vendor/huawei/hi6250-9-common/proprietary/vendor/lib/hw/keystore.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/keystore.hi6250.so \
     vendor/huawei/hi6250-9-common/proprietary/vendor/lib/hw/lights.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/lights.hi6250.so \
     vendor/huawei/hi6250-9-common/proprietary/vendor/lib/hw/mediacomm.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/mediacomm.hi6250.so \
     vendor/huawei/hi6250-9-common/proprietary/vendor/lib/hw/memtrack.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/memtrack.hi6250.so \
@@ -382,7 +381,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-9-common/proprietary/vendor/lib64/hw/hisupl.hi1102.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/hisupl.hi1102.default.so \
     vendor/huawei/hi6250-9-common/proprietary/vendor/lib64/hw/hisupl.hisi.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/hisupl.hisi.default.so \
     vendor/huawei/hi6250-9-common/proprietary/vendor/lib64/hw/hwcomposer.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/hwcomposer.hi6250.so \
-    vendor/huawei/hi6250-9-common/proprietary/vendor/lib64/hw/keystore.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/keystore.hi6250.so \
     vendor/huawei/hi6250-9-common/proprietary/vendor/lib64/hw/lights.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/lights.hi6250.so \
     vendor/huawei/hi6250-9-common/proprietary/vendor/lib64/hw/mediacomm.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/mediacomm.hi6250.so \
     vendor/huawei/hi6250-9-common/proprietary/vendor/lib64/hw/memtrack.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/memtrack.hi6250.so \
