@@ -247,7 +247,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-9-common/proprietary/vendor/lib/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_mali.so \
     vendor/huawei/hi6250-9-common/proprietary/vendor/lib/ese_hw_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib/ese_hw_hal.so \
     vendor/huawei/hi6250-9-common/proprietary/vendor/lib/hw/CameraFactoryService.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/CameraFactoryService.so \
-    vendor/huawei/hi6250-9-common/proprietary/vendor/lib/hw/android.hardware.keymaster@3.0-impl-hisi.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.keymaster@3.0-impl-hisi.so \
     vendor/huawei/hi6250-9-common/proprietary/vendor/lib/hw/fingerprint.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/fingerprint.hi6250.so \
     vendor/huawei/hi6250-9-common/proprietary/vendor/lib/hw/fm.hisi.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/fm.hisi.hi6250.so \
     vendor/huawei/hi6250-9-common/proprietary/vendor/lib/hw/gatekeeper.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.hi6250.so \
@@ -369,7 +368,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-9-common/proprietary/vendor/lib64/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLES_mali.so \
     vendor/huawei/hi6250-9-common/proprietary/vendor/lib64/ese_hw_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/ese_hw_hal.so \
     vendor/huawei/hi6250-9-common/proprietary/vendor/lib64/hw/CameraFactoryService.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/CameraFactoryService.so \
-    vendor/huawei/hi6250-9-common/proprietary/vendor/lib64/hw/android.hardware.keymaster@3.0-impl-hisi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.keymaster@3.0-impl-hisi.so \
     vendor/huawei/hi6250-9-common/proprietary/vendor/lib64/hw/audio.primary.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.hi6250.so \
     vendor/huawei/hi6250-9-common/proprietary/vendor/lib64/hw/fingerprint.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.hi6250.so \
     vendor/huawei/hi6250-9-common/proprietary/vendor/lib64/hw/fm.hisi.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fm.hisi.hi6250.so \
